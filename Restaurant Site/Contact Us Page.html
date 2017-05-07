@@ -3,7 +3,7 @@
     <head>
 
     <title>Contact Us</title>
-    </head><center><h1>Joe's Family Restaurant</h1></center>
+    </head><center><h1>Original Joe's Restaurant</h1></center>
     <hr>
 
     <a href="Home Page.html">Home</a>
@@ -14,28 +14,50 @@
     <body>
 
     <form action="Contact Us Page.html" method="POST">
-    
+
+    <center>
     <p>
-        Name: <input type="text" name="Name"/>
+        Name: <input type="text" name="Name" align="center"/>
     </p>
-        Email: <input type="text" name="Email"/>
-     <p>
-        Phone: <input type="text" name="phone"/>
-     </p>   
-     <p>
-         <select name="Reasons for Inqiry">
-             <option> value="Catering">Catering</option>
-             <option> value="PrivateParty">Private Party</option>
-             <option> value="Feedback">Feedback</option>
-             <option> value="Other">Other</option>
-
-     </p>
-
+    <p>
+        E-mail: <input type="text" name="E-mail" align="center"/>
+    </p>
+    <p>
+        Phone: <input type="text" name="Phone" align="center"/>
+    </p>
+    <p>
+        Reason for Inquiry:
+        <select name"Reason for Inquiry" align="center">
+            <option value="Catering">Catering</option>
+            <option value"Private Party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+         </select>   
+    </p>
+    <p>
+        Additional Information:<textarea name="AdditionalInformation"></textarea>
+    </p>
+    <p>
+        Have you been to the restaurant? <input type="radio" name="answer" value="No" checked/>No
+                                         <input type="radio" name="answer" value="yes"/>Yes<br/>
+    </p>
+    <p>
+        Best days to contact you: <input type="checkbox" name="answer" value="M"/>M
+                                  <input type="checkbox" name="answer" value="T"/>T
+                                  <input type="checkbox" name="answer" value="W"/>W
+                                  <input type="checkbox" name="answer" value="Th"/>Th
+                                  <input type="checkbox" name="answe" value="F"/>F
+    
+    </p>
+    <p>
+        <input type="submit" name="SendRequest" value="Send Request"/>
         
+    </p>
+
+     </center>
+
+ 
     </form>   
-
-
-
 
     </body>
     
