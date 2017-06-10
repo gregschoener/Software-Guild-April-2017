@@ -1,0 +1,36 @@
+Total height
+margin-top + border-top + padding-top + (height of the content) + padding-bottom + border-bottom + margin-bottom
+
+Total width
+margin-left + border-left + padding-left + (width of the content) + padding-right + border-right + margin-right
+
+
+Total height = 20 + 1 + 10 + 150 + 10 + 1 + 20
+Total height = 212px
+
+Total width = 20 + 1 + 10 + 400 + 10 + 1 + 20
+Total width = 462px
+
+
+
+Browser height
+border-top + padding-top + (height of the content) + padding-bottom + border-bottom  
+
+Browser width
+border-left + padding-left + (width of the content) + padding-right + border-right 
+
+
+Browser height = 1 + 10 + 150 + 10 + 1 
+Browser height = 172
+
+Browser width = 1 + 10 + 400 + 10 + 1
+Browser width = 422
+
+
+
+
+Height:	150px
+Width: 	400px
+Margin:	20px
+Border:	1px
+Padding: 	10px

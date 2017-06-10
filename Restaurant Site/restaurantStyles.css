@@ -6,4 +6,25 @@ footer {
 } 
 h1 {
     font-family: "Arial"
-}         
+}
+
+
+a:link {
+    text-decoration: underline;
+    font-weight: none;
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+    font-family: cursive;
+}
+
+
+
+           
